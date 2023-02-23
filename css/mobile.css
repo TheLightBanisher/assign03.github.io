@@ -1,0 +1,72 @@
+@media (max-width: 500px) {
+  /*Background image*/
+  .bannerimg {
+    background-position: -133rem 0rem;
+    filter: brightness(50%);
+    position: relative;
+    height: 27rem;
+  }
+
+  /*Navbar*/
+  .container-respon {
+    display: block;
+  }
+
+  /*Target*/
+  #personal-info {
+    padding-left: 4.9rem;
+  }
+
+  /*Jobinfo */
+  .grid-container {
+    display: block;
+  }
+  .grid-item {
+    margin: 0 2rem;
+  }
+  .itemsm {
+    margin-bottom: 1rem;
+  }
+
+  /*Chung Chi*/
+  .chungchi {
+    display: block;
+  }
+  .web,
+  .java,
+  .data {
+    width: 100%;
+    padding: 2rem;
+  }
+  .noidungchungchi {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  .java > .anhchungchi {
+    padding-left: 1rem;
+    border-left: 1px solid #f7f7f7;
+  }
+  .data {
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #d6c08d;
+  }
+
+  /*Du an*/
+  .row-respon {
+    display: block;
+  }
+  .project-sm-screen {
+    width: 60%;
+    margin-left: 25%;
+  }
+  .project-content-sm {
+    display: block;
+  }
+  .nam {
+    color: #f7f7f7;
+    padding: 0% 4%;
+    background-color: #14b0f8;
+    border: 1px solid #14b0f8;
+    border-radius: 2rem/2rem;
+  }
+} ;
